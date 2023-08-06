@@ -84,24 +84,6 @@ export const InputContentEditor = ({
 
   const error = methods?.formState?.errors?.[name]?.message;
 
-  // const inputString = `<p>Saad</p>\n<img src="http://localhost:3000/images/icons/avatars/std-boy.png" alt="undefined" style="height: auto;width: auto"/>\n<p></p>\n`
-
-  // // Regular expression to find image tags
-  // const imgTagRegex = /<img\s+src="([^"]+)"[^>]*>/g
-
-  // // Array to store the found URLs
-  // const imgUrls = []
-
-  // let match
-  // while ((match = imgTagRegex.exec(inputString))) {
-  //     imgUrls.push(match[1])
-  // }
-
-  // console.log(imgUrls)
-  // const cleanedString = inputString.replace(imgTagRegex, '')
-
-  // console.log(cleanedString)
-
   return (
     <div>
       <p>{label}</p>
